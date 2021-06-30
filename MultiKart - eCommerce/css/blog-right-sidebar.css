@@ -1,0 +1,157 @@
+@import url('./grid-responsive.css');
+@import url('./grid.css');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .8px;
+    line-height: 1.5;
+}
+:root{
+    --theme-deafult-color: #ff4c3b;
+}
+main{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0px;
+    
+}
+.row{
+    display: flex;
+    align-items: flex-start;
+}
+.blog-media{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+.blog-media-item{
+margin-bottom: 20px;
+}
+.blog-media-item img{
+    object-fit: cover;
+    width: 495px;
+    height: 293px;
+}
+.blog-item-content {
+    padding: 30px 0px;
+}
+.blog-item-content h6{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    color: var(--theme-deafult-color);
+}
+.blog-item-content h4{
+    margin: 15px 0px;
+    color: #333;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 18px;
+    
+
+}
+.blog-item-content p{
+    line-height: 1.8;
+    margin-bottom: 0;
+    letter-spacing: .04em;
+    font-size: 14px;
+    color: #777;
+}
+.post-social{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.post-social li{
+color: #777;
+font-size: 14px;
+line-height: 1.5;
+padding-left: 15px;
+margin-left: 15px;
+border-left: 1px solid #ddd;
+}
+
+
+/* sidebar */
+.blog-sidebar{
+    margin-left: 30px;
+}
+.sidebar-card{
+    border: 1px solid #ddd;
+    padding: 30px;
+    background-color: #fff;
+}
+.sidebar-card h4{
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.recent-blog{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.recent-blog li{
+    margin-bottom: 30px;
+}
+.media{
+    display: flex;
+    align-items: center;
+}
+.media img{
+    height: 59px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.media-content h6{
+    margin: 0;
+    line-height: 20px;
+    color: #333;
+    font-weight: 700;
+    font-size: 14px;
+   
+}
+.media-content p{
+    margin: 0;
+    color: #555;
+    font-size: 14px;
+}
+.popular-blog{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.media-date{
+    background-color: var(--theme-deafult-color);
+    height: 70px;
+    width: 70px;
+    margin: 0 15px 0 0;
+    padding: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+.media-date span{
+    color: #fff;
+}
+.popular-blog li{
+    margin-top: 30px;
+}
+.popular-blog li p{
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #555;
+    font-size: 14px;
+}

@@ -1,0 +1,57 @@
+@import url('./grid-responsive.css');
+@import url('./grid.css');
+*{
+    box-sizing: border-box;
+}
+
+main{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0px;
+    
+}
+.collection{
+    padding: 0;
+}
+
+.top-banner{}
+.top-banner-content{
+    padding: 35px 0px;
+}
+.top-banner-content h4{
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 15px;
+    letter-spacing: .03em;
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 1;
+}
+.top-banner-content h5{
+    font-size: 16px;
+    font-weight: 600;
+    color: #444;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.top-banner-content p{
+    line-height: 1.5;
+    color: #777;
+    margin: 0;
+    font-size: 14px;
+}
+.metro-section{}
+.metro-section-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    height: auto;
+    padding: 70px 0px 0px 0px;
+}
+.metro-item{}
+.metro-item img{
+    margin-bottom:30px;
+}

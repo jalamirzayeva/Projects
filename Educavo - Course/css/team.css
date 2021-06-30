@@ -1,0 +1,133 @@
+:root {
+  --heading-font: "Nunito", sans-serif;
+  --body-font: "Rubik", sans-serif;
+  --color-orange: #ff5421;
+  --color-dark-orange: rgb(216, 64, 18);
+  --color-dark-blue: #171f32;
+  --color-blue: #21a7d0;
+  --color-body: #505050;
+}
+
+main {
+}
+.team-page-heading {
+  background-image: url("../img/team/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-page-heading-text {
+  text-align: center;
+  color: white;
+}
+.team-page-heading-text h1 {
+  margin-bottom: 20px;
+  font-family: var(--heading-font);
+  font-size: 48px;
+  font-weight: 700;
+}
+.team-page-heading-text p {
+  font-family: var(--body-font);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* team page   */
+.team-page-main {
+  padding-top: 94px;
+  padding-bottom: 100px;
+}
+.team-container {
+}
+/* item */
+.team-container div div {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  
+}
+/* item icindeki sekil */
+.team-container div div img {
+  object-fit: cover;
+  height: 90%;
+  width: 100%;
+}
+/* item icindeki hidden div */
+.content-part {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+  z-index: 1;
+  transition: all 0.3s ease;
+  opacity: 0;
+  background-color: var(--color-orange);
+}
+.col-4 img:hover .content-part {
+  display:block;
+}
+.content-part h4 {
+}
+.content-part span {
+}
+.content-part ul {
+}
+.content-part ul li {
+}
+
+/* subscribe */
+.newsletter {
+  position: relative;
+  z-index: 1;
+}
+
+.newsletter-row {
+  display: flex;
+}
+.col-6 img {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 20px;
+}
+.col-6 h2 {
+  font-family: var(--heading-font);
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+}
+.subscribe {
+  border-radius: 3px;
+  outline: none;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.subscribe input {
+  outline: none;
+  color: var(--color-body);
+  font-family: var(--body-font);
+  padding: 20px 30px;
+  padding-right: 150px;
+  font-size: 15px;
+  border: none;
+  border-radius: 3px 0px 0px 3px;
+}
+.subscribe button {
+  text-align: center;
+  font-family: var(--body-font);
+  padding: 20px 40px;
+  color: white;
+  outline: none;
+  background-color: var(--color-orange);
+  font-size: 15px;
+  border: none;
+  border-radius: 0px 3px 3px 0px;
+  cursor: pointer;
+}
