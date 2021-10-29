@@ -1,0 +1,119 @@
+@media only screen and (max-width: 576px) {
+  .fresh-navbar {
+    padding: 0 20px !important;
+  }
+  .hamburger {
+    justify-self: flex-end !important;
+  }
+  .fresh-nav-menu {
+    grid-template-columns: 1fr !important;
+  }
+  .intro {
+    grid-template-columns: 1fr !important;
+  }
+  .intro-item-img {
+    margin-top: 60px !important;
+  }
+  .intro-item-title h1 {
+    font-size: 33px!important;
+    font-weight: 700 !important;
+    padding: 0 10px 30px 10px !important;
+  }
+  .intro-item-desc {
+    padding: 0 30px !important;
+    font-size: 13px !important;
+  }
+  .intro-info {
+    padding: 0 !important;
+  }
+  .seminar-time {
+    font-size: 12px !important;
+  }
+  .news-posts {
+    grid-template-columns: 1fr !important;
+  }
+  .news-post {
+    grid-template-columns: 1fr !important;
+  }
+  .interview-title {
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    line-height: 0px !important;
+  }
+  .coach-name-interview {
+    margin-top: 30px !important;
+  }
+  .interview-desc {
+    font-size: 10px !important;
+  }
+  .interview-post {
+    grid-template-columns: 1fr !important;
+  }
+  .interview-img {
+    height: 250px !important;
+  }
+  .interview-img img {
+    border-top-left-radius: 8px !important;
+    border-top-right-radius: 15px !important; 
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  .interview-content {
+    border-bottom-left-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+  }
+  .article {
+    grid-template-columns: 1fr !important;
+  }
+  .article-title {
+    font-size: 23px !important;
+  }
+  .aboutConsensUs {
+    grid-template-columns: 1fr !important;
+  }
+  .journals {
+    grid-template-columns: 1fr !important;
+    grid-gap: 20px;
+  }
+  .contact{
+      grid-template-columns: 1fr !important;
+  }
+.inputBox-1{
+    grid-template-columns: 1fr !important;
+}
+footer{
+  padding: 25px !important;
+}
+.footer-container{
+  grid-template-columns: 1fr !important;
+  grid-gap: 100px !important;
+}
+.footer-bottom-item p{
+  font-size: 15px !important;
+
+}
+.footer-bottom{
+  grid-template-columns: 1fr !important;
+  text-align: center !important;
+}
+.footer-bottom-item-social{
+  justify-self: center !important;
+}
+}
+@media only screen and (max-width: 768px) {
+  .intro {
+    grid-template-columns: 1fr !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .intro {
+    grid-template-columns: 1fr !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .intro {
+    grid-template-columns: 1fr !important;
+  }
+}
