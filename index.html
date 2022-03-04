@@ -13,6 +13,9 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
@@ -26,17 +29,28 @@
             <!-- HEADER START -->
             <header class="header">
                 <nav class="fresh-navbar">
-                    <a href="#" class="fresh-nav-branding"><img src="./resources/img/logo-nav.png" alt=""></a>
+                    <a href="./index.html" class="fresh-nav-branding"><img src="./resources/img/logo-nav.png"
+                            alt=""></a>
                     <ul class="fresh-nav-menu">
                         <li class="fresh-nav-item">
-                            <a href="#" class="fresh-nav-link">About us</a>
+                            <a href="#About" class="fresh-nav-link">About us</a>
                         </li>
 
                         <li class="fresh-nav-item">
-                            <a href="#" class="fresh-nav-link">Media</a>
+                            <a href="#News" class="fresh-nav-link">Media</a>
                         </li>
+                        <!-- <div class="dropdown">
+                            <button class="dropbtn" onclick="myFunction()">Media
+                              <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content" id="myDropdown">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                            </div>  -->
                         <li class="fresh-nav-item">
-                            <a href="#" class="fresh-nav-link">Journal</a>
+                            <a href="#Journals" class="fresh-nav-link">Journal</a>
                         </li>
 
                         <li class="fresh-nav-item">
@@ -78,7 +92,8 @@
                         has dramatically changed the narrative on the much-discussed and controversial subject of bail
                     </p>
                     <p class="coach-name">Nurlan Gubadzada</p>
-                    <p class="seminar-time"><i class="fal fa-calendar"></i> 23 October · 3 min reading</p>
+                    <p class="seminar-time"><img src="./resources/img/calendar.svg" alt=""> 23 October · 3 min reading
+                    </p>
                 </div>
             </div>
         </div>
@@ -86,11 +101,11 @@
     </div>
 
     <!-- news -->
-    <div class="container">
+    <div class="container" id="News">
         <div class="news-header">
             <h2>News</h2>
             <div class="see-all">
-                <button class="see-all-btn "> <a href="#"> See all</a></button>
+                <button class="see-all-btn "> <a href="./news.html"> See all</a></button>
             </div>
         </div>
 
@@ -126,7 +141,7 @@
         <div class="news-header">
             <h2>Interviews</h2>
             <div class="see-all">
-                <button class="see-all-btn "><a href="#"> See all</a></button>
+                <button class="see-all-btn "><a href="./interviews.html"> See all</a></button>
 
             </div>
         </div>
@@ -144,7 +159,7 @@
 
 
                     <p class="coach-name-interview ">Nurlan Gubadzada</p>
-                    <p class="seminar-time m-0 "><i class="fal fa-calendar"></i> 23 October</p>
+                    <p class="seminar-time m-0 "><img src="./resources/img/calendar-light.svg" alt=""> 23 October</p>
                 </div>
 
 
@@ -165,7 +180,7 @@
 
 
                     <p class="coach-name-interview">Nurlan Gubadzada</p>
-                    <p class="seminar-time m-0 "><i class="fal fa-calendar"></i> 23 October</p>
+                    <p class="seminar-time m-0 "><img src="./resources/img/calendar-light.svg" alt=""> 23 October</p>
                 </div>
 
 
@@ -178,7 +193,7 @@
         <div class="news-header mb-0">
             <h2>Articles</h2>
             <div class="see-all">
-                <button class="see-all-btn "> <a href="#"> See all</a></button>
+                <button class="see-all-btn "><a href="./articles.html"> See all</a></button>
             </div>
         </div>
         <div class="articles">
@@ -206,7 +221,7 @@
 
 
         <!-- whatIsConsensUs? -->
-        <div class="aboutConsensUs">
+        <div class="aboutConsensUs" id="About">
             <div class="what-is">
                 <h1>What is <span>ConsensUs</span> ?</h1>
             </div>
@@ -215,26 +230,102 @@
                     aliquet id aliquet dictum facilisis diam nisl tristique. Tortor, congue erat morbi vitae. Arcu
                     pulvinar non eget nec et fames phasellus nam. Vel diam turpis adipiscing porttitor cursus vitae
                     adipiscing.</p>
-                <a href="#"><i class="fal fa-long-arrow-right"></i> Contact us</a>
+                <a href="#Contact"><img src="./resources/img/right-arrow-blue.svg" alt=""> Contact us</a>
             </div>
         </div>
 
 
 
         <!--  journals -->
-        <div class="journals">
+        <div class="journals" id="Journals">
             <div class="journal-title">Our journals</div>
             <div class="journal-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend laoreet
                 dui etiam. Vitae aliquet id aliquet dictum </div>
         </div>
 
         <!-- slider -->
-       <div class="aboutSlider">SLIDER</div>
 
+        <div class="wrapper">
+            <!-- start slider -->
+            <div class="promotions-carousel row">
+                <!-- slide 1 -->
+                <div class="columns large-4">
+                    <a href="#">
+                        <div class="row">
+                            <div class="columns small-12">
+                                <img src="./resources/img/about-post.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end slide 1 -->
+
+                <!-- slide 2 -->
+                <div class="columns large-4">
+                    <a href="#">
+                        <div class="row">
+                            <div class="columns small-12">
+                                <img src="./resources/img/about-post.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end slide 2 -->
+
+                <!-- slide 3 -->
+                <div class="columns large-4">
+                    <a href="#">
+                        <div class="row">
+                            <div class="columns small-12">
+                                <img src="./resources/img/about-post.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end slide 3 -->
+
+                <!-- slide 4 -->
+                <div class="columns large-4">
+                    <a href="#">
+                        <div class="row">
+                            <div class="columns small-12">
+                                <img src="./resources/img/about-post.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end slide 4 -->
+
+                <!-- slide 5 -->
+                <div class="columns large-4">
+                    <a href="#">
+                        <div class="row">
+                            <div class="columns small-12">
+                                <img src="./resources/img/about-post.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end slide 5 -->
+
+            </div>
+            <!-- end slider -->
+        </div>
+
+        <!-- partners start -->
+        <div class="partners">
+            <div class="partner-logo"><img src="./resources/img/partner-1.png" alt=""></div>
+            <div class="partner-logo"><img src="./resources/img/partner-1.png" alt=""></div>
+            <div class="partner-logo"><img src="./resources/img/partner-1.png" alt=""></div>
+            <div class="partner-logo"><img src="./resources/img/partner-1.png" alt=""></div>
+            <div class="partner-logo"><img src="./resources/img/partner-1.png" alt=""></div>
+            <div class="partner-logo"><img src="./resources/img/partner-1.png" alt=""></div>
+        </div>
+        <!-- partners end -->
 
 
         <!-- contact us -->
-        <div class="contact">
+        <div class="contact" id="Contact">
             <div class="contact-item">
                 <h1>Get in touch</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet aliquam magna eget ipsum morbi.
@@ -244,12 +335,15 @@
                 <br>
                 <br>
                 <div class="contact-social">
-                    <div class="wp"><i class="fab fa-whatsapp"></i>+12 234 56 78</div>
-                    <div class="insta"><i class="fab fa-instagram" style="padding: 8px 9px;"></i>@consensus</div>
-                    <div class="tel"><i class="fal fa-phone-alt"></i>+12 234 56 78</div>
-                    <div class="fb"><i class="fab fa-facebook-f" style="padding: 8px 11px;"></i>Consens Us</div>
+                    <div class="wp"><img src="./resources/img/wp.svg" alt="">+12 234 56 78 </div>
+                    <div class="insta"><img src="./resources/img/insta.svg" alt="">@consenseus</div>
+                    <div class="tel"><img src="./resources/img/tel.svg" alt="">
+                        +12 234 56 78
+                    </div>
+                    <div class="fb"><img src="./resources/img/fb.svg" alt="">Consens Us</div>
                 </div>
             </div>
+
             <div class="contact-item">
                 <form>
                     <div class="inputBox-1 mb-3">
@@ -300,7 +394,7 @@
                         our monthly reports</h1>
                     <div class="footer-email">
                         <input type="email" placeholder="Your Email" class="footer-input">
-                        <i class="fal fa-long-arrow-right"></i>
+                        <img src="./resources/img/right-arrow-light.svg" alt="">
                     </div>
                 </div>
                 <div class="footer-item">
@@ -321,7 +415,9 @@
             </div>
         </div>
     </footer>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/js/foundation.min.js"></script>
     <script src="./resources/js/main.js"></script>
 
 </body>

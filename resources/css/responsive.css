@@ -101,6 +101,41 @@ footer{
 .footer-bottom-item-social{
   justify-self: center !important;
 }
+.interview-container{
+  margin-top: 115px;
+}
+
+
+.article-item{
+  grid-template-columns: 1fr !important ;
+  grid-gap: 60px;
+  margin: 45px 0;
+}
+.article-item-time-content {
+  text-align: center;
+}
+
+.article-item-content-img{
+  height: 235px !important;
+  width: 390px!important;
+
+}
+.article-author{
+  grid-template-columns: 1fr !important;
+  text-align: center !important;
+}
+.related-articles img{
+  width: 100% !important;
+}
+.partners{
+  grid-template-columns: 1fr 1fr !important;
+}
+.administrators{
+  
+  grid-template-columns:  1fr !important;
+  
+
+}
 }
 @media only screen and (max-width: 768px) {
   .intro {
